@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include "AFMotor_R4.h"
 
-#define FAST 100
-#define SLOW 50
+#define FAST 50
+#define SLOW 0
 AF_DCMotor motorL(3);
 AF_DCMotor motorR(1);
 volatile int photo;
